@@ -21,7 +21,7 @@ body {
 /* Header styling */
 header {
     background-color: #E95420; 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 25px 30px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ main {
 
 .commando-groep p {
     font-style: italic;
-    color: #555;
+    color: #ff0000;
     margin-bottom: 15px;
 }
 
