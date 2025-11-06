@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu Commando Gids</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Snelle Gids: Ubuntu Commando's</h1>
+        </header>
+
+        <main>
+            <section class="commando-groep">
+                <h2>Bestands- en Mapbeheer</h2>
+                <ul>
+                    <li>
+                        <code>ls</code>
+                        <span>Toont de inhoud (bestanden en mappen) van de huidige map.</span>
+                    </li>
+                    <li>
+                        <code>cd [mapnaam]</code>
+                        <span>Verandert de huidige map (Change Directory). Gebruik <code>cd ..</code> om een map omhoog
+                            te gaan.</span>
+                    </li>
+                    <li>
+                        <code>pwd</code>
+                        <span>Toont het volledige pad van de map waarin je je nu bevindt (Print Working
+                            Directory).</span>
+                    </li>
+                    <li>
+                        <code>mkdir [mapnaam]</code>
+                        <span>Maakt een nieuwe map aan (Make Directory).</span>
+                    </li>
+                    <li>
+                        <code>rm [bestandsnaam]</code>
+                        <span>Verwijdert een bestand (Remove). Gebruik <code>rm -r [mapnaam]</code> om een map en de
+                            inhoud te verwijderen.</span>
+                    </li>
+                    <li>
+                        <code>cp [bron] [doel]</code>
+                        <span>Kopieert een bestand of map (Copy).</span>
+                    </li>
+                    <li>
+                        <code>mv [bron] [doel]</code>
+                        <span>Verplaatst of hernoemt een bestand of map (Move).</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="commando-groep">
+                <h2>Systeembeheer</h2>
+                <ul>
+                    <li>
+                        <code>sudo [commando]</code>
+                        <span>Voert een commando uit met administrator- (root) rechten. Essentieel voor installaties of
+                            systeemwijzigingen.</span>
+                    </li>
+                    <li>
+                        <code>top</code>
+                        <span>Toont een live overzicht van actieve processen en systeembronnen (CPU, RAM). Druk op 'q'
+                            om te stoppen.</span>
+                    </li>
+                    <li>
+                        <code>df -h</code>
+                        <span>Toont het schijfgebruik in een leesbaar formaat (Disk Free).</span>
+                    </li>
+                    <li>
+                        <code>reboot</code>
+                        <span>Herstart het systeem (vereist meestal <code>sudo</code>).</span>
+                    </li>
+                    <li>
+                        <code>shutdown now</code>
+                        <span>Sluit het systeem onmiddellijk af (vereist meestal <code>sudo</code>).</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="commando-groep">
+                <h2>Pakketbeheer (Software)</h2>
+                <p>APT is het systeem van Ubuntu om software te beheren.</p>
+                <ul>
+                    <li>
+                        <code>sudo apt update</code>
+                        <span>Ververst de lijst van beschikbare softwarepakketten van de servers.</span>
+                    </li>
+                    <li>
+                        <code>sudo apt upgrade</code>
+                        <span>Installeert de nieuwste versies van alle softwarepakketten die al op je systeem
+                            staan.</span>
+                    </li>
+                    <li>
+                        <code>sudo apt install [pakketnaam]</code>
+                        <span>Installeert een nieuw softwarepakket (bijv. <code>sudo apt install vlc</code>).</span>
+                    </li>
+                    <li>
+                        <code>sudo apt remove [pakketnaam]</code>
+                        <span>Verwijdert een softwarepakket.</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Gemaakt door Luuk van Hout</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

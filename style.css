@@ -1,0 +1,99 @@
+/* Algemene stijlen */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container voor de inhoud */
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden; 
+}
+
+/* Header styling */
+header {
+    background-color: #E95420; 
+    color: white;
+    padding: 25px 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+/* Hoofdinhoud */
+main {
+    padding: 20px 30px 30px 30px;
+}
+
+.commando-groep h2 {
+    font-family: 'Ubuntu', sans-serif; 
+    color: #333;
+    border-bottom: 3px solid #E95420; 
+    padding-bottom: 8px;
+    margin-top: 25px;
+    font-size: 1.8rem;
+}
+
+.commando-groep p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Lijst-styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    
+    
+    display: flex;
+    flex-direction: column; 
+    gap: 8px;
+}
+
+/* Styling voor het commando zelf */
+code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #2d2d2d; 
+    color: #f1f1f1; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    white-space: nowrap; 
+    align-self: flex-start; 
+}
+
+ul li span {
+    color: #444;
+    font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    color: #777;
+    font-size: 0.9rem;
+}
